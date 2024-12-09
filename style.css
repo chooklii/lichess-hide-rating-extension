@@ -1,0 +1,15 @@
+html{
+    height: 50px;
+}
+
+body{
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+p{
+    font-size: 13px;
+}
+
