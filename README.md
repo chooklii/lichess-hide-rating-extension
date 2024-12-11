@@ -2,6 +2,8 @@
 
 <b>Focus on your Gameplay and prevent different play based on the Rating of your opponent</b>
 
+To use this Extension clone the Repository and add the Extension manually. To do so go to "Settings" -> "Extensions", Enable "Developer Mode" and add the Extension by loading it from your PC. 
+
 Chrome Browser Extension to hide the opponent rating during games
 
 Toggle between Removing and Displaying Lichess Ratings during your Game while keeping all the other information 
