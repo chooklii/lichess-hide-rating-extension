@@ -3,8 +3,18 @@
     "name": "Hide Lichess Ratings",
     "description": "Hide Lichess Ratings during played Games",
     "version": "1.0",
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
     "action": {
-      "default_popup": "ui.html",
-      "default_icon": "logo.png"
-    }
+      "default_popup": "action/ui.html",
+      "default_icon": "action/logo.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://lichess.org/*"],
+        "js": ["content/removeRating.js"]
+      }
+    ]
   }
