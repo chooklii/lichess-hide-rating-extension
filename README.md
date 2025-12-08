@@ -2,7 +2,7 @@
 
 <b>Focus on your Gameplay and prevent different play based on the Rating of your opponent</b>
 
-Chrome Browser Extension to hide the opponent rating during games
+Chrome Browser Extension to hide ratings on lichess.org website
 
 Toggle between Removing and Displaying Lichess Ratings during your Game while keeping all the other information 
 
