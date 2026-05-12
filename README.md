@@ -1,43 +1,53 @@
-# lichess-hide-rating-extension
+# Hide Lichess Ratings
 
-<b>Focus on your Gameplay and prevent different play based on the Rating of your opponent</b>
+**Focus on your gameplay and stop adjusting your play based on your opponent's rating.**
 
-Chrome Browser Extension to hide ratings on lichess.org website.
+A Chrome browser extension that hides ratings on [lichess.org](https://lichess.org), so you can concentrate purely on the chess.
 
+## Features
 
-To use this Extension clone the Repository and add the Extension manually. To do so go to "Settings" -> "Extensions", Enable "Developer Mode" and add the Extension by loading it from your PC. 
+- Hides opponent ratings next to the clock and under the game mode
+- Simple toggle to enable/disable rating hiding
+- Automatically refreshes the Lichess tab when toggled
+- Lightweight — no unnecessary permissions
 
-Chrome Browser Extension to hide the opponent rating during games
+## Installation
 
-Toggle between Removing and Displaying Lichess Ratings during your Game while keeping all the other information 
+Since this extension is not published on the Chrome Web Store, you need to install it manually:
 
-Easy to use UI
+1. Clone or download this repository
+2. Open Chrome and navigate to `chrome://extensions`
+3. Enable **Developer Mode** (toggle in the top-right corner)
+4. Click **Load unpacked** and select the extension folder
 
-|![UI](readme/ui.png) |
+## Usage
+
+1. Click the extension icon in your browser toolbar to open the popup
+2. Check or uncheck **"Hide Rating during the Game"** to toggle rating visibility
+3. Any open Lichess tab will automatically refresh to apply the change
+
+|![Extension popup UI](readme/ui.png)|
 |:--:|
-| UI |
+|*Extension popup*|
 
-# Enabled
+## Screenshots
 
-|![Gamemode with Extension enabled](readme/left_without.png) |
-|:--:|
-| Gamemode |
+### Ratings Hidden (Extension Enabled)
 
-|![Time with Extension enabled](readme/right_without.png) |
-|:--:|
-| Time and Moves |
+|![Game mode — ratings hidden](readme/left_without.png)|![Clock — ratings hidden](readme/right_without.png)|
+|:--:|:--:|
+|*Game mode*|*Clock & moves*|
 
-# Disabled
+### Ratings Visible (Extension Disabled)
 
-|![Gamemode with Extension disabled](readme/left_with.png) |
-|:--:|
-| Gamemode |
+|![Game mode — ratings visible](readme/left_with.png)|![Clock — ratings visible](readme/right_with.png)|
+|:--:|:--:|
+|*Game mode*|*Clock & moves*|
 
-|![Time with Extension disabled](readme/right_with.png) |
-|:--:|
-| Time and Moves |
+## Contributing
 
+Found a bug? Feel free to open an issue — please include screenshots so the problem is easy to reproduce.
 
-# Contributing
+## License
 
-If you are able to detect an issue feel free to create an issue. Please add screenshots when doing so.
+See [LICENSE](LICENSE) for details.
